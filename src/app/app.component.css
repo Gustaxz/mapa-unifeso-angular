@@ -1,0 +1,104 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(157, 245, 97, 0.16);
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+}
+
+.top-info {
+  font-size: x-large;
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  padding-top: 12px;
+}
+
+.top-info p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.icon-menu {
+  position: absolute;
+  top: 8px;
+  cursor: pointer;
+  left: 16px;
+}
+
+.sidenav-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+}
+
+.sidenav {
+  width: 30vw;
+  background: #1ECCB8;
+}
+
+.sidenav p {
+  font-family: 'Baloo 2', cursive;
+  font-weight: 600;
+}
+
+.sidenav-title {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: x-large;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+  font-weight: 500;
+}
+
+.sidenav-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  align-items: center;
+  margin-top: 84px;
+}
+
+.sidenav-box-purple, .sidenav-box-pink {
+  width: 80%;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.sidenav-box-purple {
+  background-image: url("../assets/purplebox.png");
+}
+
+.sidenav-box-pink {
+  background-image: url("../assets/pinkbox.png");
+}
+
+.sidenav-box-title {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  margin-top: 24px;
+  margin-left: 24px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.sidenav-box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 24px;
+  margin-left: 24px;
+  color: white;
+  font-size: 1rem;
+}
